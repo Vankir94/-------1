@@ -244,6 +244,7 @@ p {
 .seasons-list-item {
     padding-left: 75px;
     padding-top: 100px;
+    position: relative;
 }
 
 .seasons-list li {
@@ -259,11 +260,13 @@ p {
     line-height: 112px;
     color:  #600E09;
     position: absolute;
+    top: 25px;
 }
 
 .seasons-list-item-image {
     width: 350px;
     height: 250px;
+    position: relative;
     
 }
 
@@ -374,4 +377,40 @@ footer p {
     line-height: 21px;
     color: #FFFFFF;
     position: absolute;
+}
+
+button {
+    padding: 0;
+    border: 0;
+}
+
+.seasons-list-item button {
+    width: 300px;
+    height: 65px; 
+    position: absolute;
+    top: 94px;
+    left: 27px;
+    background: #0E0E0E;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.seasons-list-item-hover {
+    width: 144px;
+    height: 42px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    left: 78px;
+    top: 12px;
+}
+
+.seasons-list-item button:hover {
+    opacity: 1;
+    transition: opacity .3s;
 }
