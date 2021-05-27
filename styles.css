@@ -243,7 +243,7 @@ p {
 
 .seasons-list-item {
     padding-left: 75px;
-    padding-top: 75px;
+    padding-top: 100px;
 }
 
 .seasons-list li {
@@ -258,6 +258,7 @@ p {
     font-size: 96px;
     line-height: 112px;
     color:  #600E09;
+    position: absolute;
 }
 
 .seasons-list-item-image {
